@@ -1,16 +1,14 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour {
-
-    [SerializeField] private float moveSpeed = 7f;
-
-    private void Update()
+public class GameInput : MonoBehaviour
+{
+    public Vector2 GetMovementVectorNormalized()
     {
         Vector2 inputVector = new Vector2(0, 0);
 
         if (Input.GetKey(KeyCode.W))
         {
-            inputVector.y += 1;    
+            inputVector.y += 1;
         }
 
         if (Input.GetKey(KeyCode.S))
@@ -27,13 +25,8 @@ public class NewMonoBehaviourScript : MonoBehaviour {
         {
             inputVector.x += 1;
         }
-
+        // 거리값이 1로 고정
         inputVector = inputVector.normalized;
-
-        Vector3 moveDir = new Vector3(inputVector.x, 0f, inputVector.y);
-        transform.position += moveDir * moveSpeed * Time.deltaTime;
-
-        float rotateSpeed = 10f;
-        transform.forward = Vector3.Slerp(transform.forward, moveDir, rotateSpeed * Time.deltaTime);
+        return inputVector;
     }
 }
