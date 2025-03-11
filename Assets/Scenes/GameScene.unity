@@ -810,7 +810,7 @@ MonoBehaviour:
   gameInput: {fileID: 1171137213}
   countersLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
 --- !u!4 &1422744890
 Transform:
   m_ObjectHideFlags: 0

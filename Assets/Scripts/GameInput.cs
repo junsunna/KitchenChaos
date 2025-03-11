@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 
 public class GameInput : MonoBehaviour
 {
-    public event EventHandler OnInteracAction;
+    public event EventHandler OnInteractAction;
     private PlayerInputActions playerInputActions;
     private void Awake()
     {
@@ -16,7 +16,7 @@ public class GameInput : MonoBehaviour
 
     private void Interact_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
     {
-        OnInteracAction?.Invoke(this, EventArgs.Empty);
+        OnInteractAction?.Invoke(this, EventArgs.Empty);
     }
 
     public Vector2 GetMovementVectorNormalized()
