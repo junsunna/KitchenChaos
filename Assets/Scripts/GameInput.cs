@@ -26,7 +26,6 @@ public class GameInput : MonoBehaviour
         // 거리값이 1로 고정
         inputVector = inputVector.normalized;
 
-        Debug.Log(inputVector);
         return inputVector;
     }
 }

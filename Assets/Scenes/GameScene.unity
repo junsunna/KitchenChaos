@@ -478,6 +478,17 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!114 &523832878 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4691218711904782213, guid: bc0ce09e194cbd549be123f0a5a2efe7, type: 3}
+  m_PrefabInstance: {fileID: 2219959868432267493}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aadd7c61086c6ac4f82a929cc4d8215e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &793821054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -526,6 +537,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4691218711904782213, guid: bc0ce09e194cbd549be123f0a5a2efe7, type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691218711904782213, guid: bc0ce09e194cbd549be123f0a5a2efe7, type: 3}
+      propertyPath: tomatoPrefab
+      value: 
+      objectReference: {fileID: 8332339423025295419, guid: 8f623eb502f39a841994d57643cda70c, type: 3}
+    - target: {fileID: 4691218711904782213, guid: bc0ce09e194cbd549be123f0a5a2efe7, type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: d2a71c044a62a654c8325eaae286d461, type: 2}
+    - target: {fileID: 4691218711904782213, guid: bc0ce09e194cbd549be123f0a5a2efe7, type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 523832878}
     - target: {fileID: 5807097268806143220, guid: bc0ce09e194cbd549be123f0a5a2efe7, type: 3}
       propertyPath: m_Name
       value: ClearCounter (1)
@@ -735,6 +762,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2c5d7df48a141d646814f5c9d3298741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1259234997 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4691218711904782213, guid: bc0ce09e194cbd549be123f0a5a2efe7, type: 3}
+  m_PrefabInstance: {fileID: 793821054}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aadd7c61086c6ac4f82a929cc4d8215e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1381955672 stripped
@@ -970,6 +1008,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4691218711904782213, guid: bc0ce09e194cbd549be123f0a5a2efe7, type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 1259234997}
     - target: {fileID: 5807097268806143220, guid: bc0ce09e194cbd549be123f0a5a2efe7, type: 3}
       propertyPath: m_Name
       value: ClearCounter
